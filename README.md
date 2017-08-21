@@ -20,8 +20,16 @@ the following web sites:
 
 ## How to start it
 
+- Setup Python packages
+
+```
+sudo apt-get install python-virtualenv git python-dev libffi-dev
+
+```
+
 - Create virtualenv and activate it:
 ```
+export NAME_VIRTUAL_ENV=$HOME
 virtualenv -p python2.7 $NAME_VIRTUAL_ENV
 source $NAME_VIRTUAL_ENV/bin/activate
 ```
